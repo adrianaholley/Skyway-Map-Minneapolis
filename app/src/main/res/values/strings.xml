@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">skywaymappGoogle</string>
-    <string name="title_activity_maps">Mapdri</string>
+    <string name="title_activity_maps">Skyway Map: Minneapolis</string>
     <string name="title_activity_poi_info">poiInfo</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="lat_long_snipppet">%1$s,%2$s</string>
+    <string name="dropped_pin">Dropped Pin</string>
 </resources>
