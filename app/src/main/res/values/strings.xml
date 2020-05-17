@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">skywaymappGoogle</string>
+    <string name="app_name">Skyway Map: Minneapolis</string>
     <string name="title_activity_maps">Skyway Map: Minneapolis</string>
     <string name="title_activity_poi_info">poiInfo</string>
     <string name="title_home">Home</string>

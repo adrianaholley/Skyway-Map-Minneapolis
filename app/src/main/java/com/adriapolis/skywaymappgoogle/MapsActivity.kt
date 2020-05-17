@@ -27,9 +27,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         setContentView(R.layout.activity_maps)
 
         // Initialize the SDK
-        //todoo: hide key
-//uncomment the below line when ready to use api key. add the api key to strings.api_key
-Places.initialize(applicationContext, R.string.api_key.toString())
+        Places.initialize(applicationContext, R.string.api_key_release.toString())
 
 
         // Create a new Places client instance
@@ -89,11 +87,13 @@ Places.initialize(applicationContext, R.string.api_key.toString())
 
     private fun setPoiClick(map: GoogleMap) {
         map.setOnPoiClickListener { poi ->
+            mMap.clear()
+            actuallyDrawAreas()
             val poiMarker = map.addMarker(
                 MarkerOptions()
                     .position(poi.latLng)
                     .title(poi.name)
-//                    .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE))
+//                    .icon(Bitic_launmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE))
             )
             poiMarker.showInfoWindow()
 //          poiMarker.setTag(getString(R.string.poi))
@@ -107,6 +107,8 @@ Places.initialize(applicationContext, R.string.api_key.toString())
                 getString(R.string.lat_long_snipppet),
                 latLng.latitude,
                 latLng.longitude)
+            mMap.clear()
+            actuallyDrawAreas()
             map.addMarker(MarkerOptions()
                 .position(latLng)
                 .title(getString(R.string.dropped_pin))
