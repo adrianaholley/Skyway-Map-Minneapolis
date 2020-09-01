@@ -1,6 +1,6 @@
 # Skyway Map Minneapolis - [Available on Google Play](https://play.google.com/store/apps/details?id=com.adriapolis.skywaymappgoogle&hl=en_US)
 
-Minneapolis tourists and residents alike get lost in the skyway system--11 miles of paths connecting downtown buildings to allow pedestrians to avoid the cold. _Skyway Map Minnepolis_ helps you see where you are so you can get back on track.
+Minneapolis tourists and residents alike get lost in the skyway system--11 miles of second-story paths connecting downtown buildings to allow pedestrians to avoid the cold. _Skyway Map Minnepolis_ helps you see where you are so you can get back on track.
 
 ## Features
 This map uses Google Maps API's polylines to create a map overlay with the city's skyway paths. 
